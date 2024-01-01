@@ -1,0 +1,10 @@
+pip install pyfiglet
+import pyfiglet
+
+def github_boot_screen():
+    text = "GitHub Boot Screen"
+    ascii_text = pyfiglet.figlet_format(text, font="slant")
+    print(ascii_text)
+
+if name == "main":
+    github_boot_screen()
